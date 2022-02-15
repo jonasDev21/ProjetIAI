@@ -11,7 +11,7 @@ load_dotenv()
 app=Flask(__name__)#creer une instance de l'application
 
 
-app.config['SQLALCHEMY_DATABASE_URI']="postgresql://postgres:2356@localhost:5432/miniprojet_db"
+app.config['SQLALCHEMY_DATABASE_URI']=" postgresql://xmnzfsliobyduw:9f92718d7291d5f6d553a1fb691549a2add08db32ab8ab9f38bf985f58ae89e8@ec2-52-207-74-100.compute-1.amazonaws.com:5432/dap2flvp79li3m"
 #connexion a la base de données
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
